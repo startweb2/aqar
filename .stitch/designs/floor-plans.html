@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"surface-container-highest":"#273740","inverse-on-surface":"#22333b","tertiary":"#e7d7bb","primary-fixed-dim":"#e9c177","secondary":"#a6cdda","secondary-fixed-dim":"#a6cdda","gold-dark":"#BA8733","secondary-container":"#264c57","surface-container-low":"#0d1e26","secondary-fixed":"#c2e9f7","on-surface":"#d4e5f0","surface-container-high":"#1c2c35","midnight-black":"#06090E","on-surface-variant":"#d1c5b4","on-tertiary-container":"#554b36","on-secondary-container":"#95bbc9","on-tertiary-fixed-variant":"#504531","primary":"#fdd387","on-background":"#d4e5f0","on-error":"#690005","on-secondary-fixed-variant":"#264c57","sand-beige":"#E8E2D5","on-secondary":"#0b3540","outline-variant":"#4e4639","surface-bright":"#2b3b44","gold-light":"#FAECCD","background":"#05151d","tertiary-container":"#cabba1","surface":"#05151d","on-error-container":"#ffdad6","surface-container-lowest":"#011018","surface-dim":"#05151d","on-tertiary-fixed":"#231a09","error-container":"#93000a","primary-container":"#dfb76e","surface-container":"#11222a","outline":"#9a8f80","on-tertiary":"#392f1c","warm-ivory":"#F6F3EC","inverse-primary":"#785919","on-primary":"#412d00","tertiary-fixed":"#f1e0c5","on-primary-fixed":"#271900","on-primary-fixed-variant":"#5d4201","muted-slate":"#89949A","error":"#ffb4ab","primary-fixed":"#ffdea6","on-secondary-fixed":"#001f27","surface-tint":"#e9c177","tertiary-fixed-dim":"#d4c5aa","surface-variant":"#273740","inverse-surface":"#d4e5f0","on-primary-container":"#634706"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-lg":"2.25rem","gutter":"1.5rem","gutter-desktop":"2.5rem","margin-desktop":"5rem","margin":"1.25rem","space-xs":"0.375rem","space-sm":"0.75rem","space-md":"1.25rem","margin-tablet":"2.5rem","space-xl":"4rem"},"fontFamily":{"label-lg":["Plus Jakarta Sans"],"headline-lg-mobile":["EB Garamond"],"display-lg-mobile":["EB Garamond"],"body-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"display-lg":["EB Garamond"],"headline-lg":["EB Garamond"],"label-sm":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"headline-sm":["Plus Jakarta Sans"],"headline-md":["EB Garamond"],"display-xl-mobile":["EB Garamond"],"display-xl":["EB Garamond"],"body-xl":["Plus Jakarta Sans"]},"fontSize":{"label-lg":["14px",{"lineHeight":"18px","letterSpacing":"0.12em","fontWeight":"600"}],"headline-lg-mobile":["28px",{"lineHeight":"34px","fontWeight":"400"}],"display-lg-mobile":["34px",{"lineHeight":"40px","letterSpacing":"0em","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"display-lg":["56px",{"lineHeight":"64px","letterSpacing":"-0.015em","fontWeight":"400"}],"headline-lg":["38px",{"lineHeight":"46px","fontWeight":"400"}],"label-sm":["10px",{"lineHeight":"14px","letterSpacing":"0.2em","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.16em","fontWeight":"500"}],"headline-sm":["20px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"600"}],"headline-md":["26px",{"lineHeight":"34px","fontWeight":"500"}],"display-xl-mobile":["42px",{"lineHeight":"48px","letterSpacing":"-0.01em","fontWeight":"400"}],"display-xl":["72px",{"lineHeight":"80px","letterSpacing":"-0.02em","fontWeight":"400"}],"body-xl":["18px",{"lineHeight":"30px","fontWeight":"300"}]}}}};</script></head><body class="bg-background font-body-md text-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-[#071820]/85 backdrop-blur-md border-b border-primary-container/20 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1600px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Alamein Towers Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UUweNbl8BjUcUK8V9eb0TiD1obYH-LyyT9iwH2Xe0MtH70FuEPcxr174_nW6CPHEcgSka6pxAucdNx1O0XLFk6HaXNjGcZABjdHV6lftl_H1w35gYp-H3ubXKm9UTcCIxxWcovMCF5-5vn_21bLXbNh2a_B_U9l0gtNvBKQOeptNdD0BU6jSN8g87YSOVMwOfvy_EfcwiW__0Kl6VX8UnOeDLxG264fca5MMXROwWdi1qCndLtCbvOL0o"/><span class="flex flex-col text-left"><span class="font-label-lg text-label-lg tracking-[0.2em] uppercase text-warm-ivory">ALAMEIN TOWERS</span><span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-primary">New Alamein City</span></span></a></div><nav class="hidden xl:flex items-center gap-gutter" data-active-classes="text-primary border-b border-primary font-semibold"><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="home" href="#">Home</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="about" href="#">About</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="residences" href="#">Residences</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="amenities" href="#">Amenities</a><a aria-current="page" class="uppercase transition-colors py-space-xs text-primary border-b border-primary font-semibold" data-path="floor-plans" href="#">Floor Plans</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="gallery" href="#">Gallery</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="location" href="#">Location</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><div class="inline-flex items-center bg-surface-container-lowest/80 p-1 rounded-full border border-outline-variant/30"><button class="px-space-sm py-0.5 rounded-full font-label-sm text-label-sm uppercase bg-primary text-on-primary font-semibold transition-all shadow-sm" type="button">EN</button><button class="px-space-sm py-0.5 rounded-full font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors" type="button">AR</button></div><a class="hidden sm:inline-flex items-center justify-center font-label-lg text-label-lg uppercase tracking-wider text-midnight-black px-space-lg py-space-sm rounded-full shadow-[0_4px_20px_rgba(223,183,110,0.25)] hover:shadow-[0_4px_28px_rgba(223,183,110,0.4)] transition-all bg-[linear-gradient(135deg,#FAECCD_0%,#DFB76E_50%,#BA8733_100%)]" data-path="book-a-tour" href="#">Book a Private Tour</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full text-midnight-black selection:bg-primary-container selection:text-midnight-black">
+<!-- TOP HEADER & CONTROLS SECTION -->
+<section class="w-full bg-warm-ivory relative overflow-hidden pt-space-xl pb-space-lg">
+<!-- Architectural subtle coordinate grid lines -->
+<div class="absolute inset-0 pointer-events-none opacity-40 bg-[radial-gradient(#BA8733_0.75px,transparent_0.75px)] [background-size:24px_24px]"></div>
+<div class="max-w-[1600px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop relative z-10">
+<!-- Top Meta Badge -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm mb-space-md">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-lowest/10 px-space-md py-1 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-gold-dark animate-pulse"></span>
+<span class="font-label-sm text-label-sm tracking-[0.25em] uppercase text-gold-dark">
+            ARCHITECTURAL BLUEPRINTS &amp; SPATIAL DESIGN
+          </span>
+</div>
+<div class="hidden sm:flex items-center gap-space-md font-label-sm text-label-sm tracking-[0.2em] text-muted-slate uppercase">
+<span>COORDINATES: 30°50'N 28°57'E</span>
+<span>•</span>
+<span>LEVELS 08 – 34</span>
+</div>
+</div>
+<!-- Editorial Title & Overview -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-md lg:gap-gutter-desktop items-end mb-space-lg">
+<div class="lg:col-span-8">
+<h1 class="font-display-lg text-display-lg text-midnight-black tracking-tight leading-[1.08] mb-space-sm">
+            Smart Layouts, <span class="italic font-normal text-gold-dark">Exceptional Views.</span>
+</h1>
+<p class="font-body-xl text-body-xl text-surface-container-highest max-w-3xl leading-relaxed">
+            Meticulously engineered residence layouts maximizing panoramic Mediterranean sea vistas, dual-aspect natural lighting, and seamless indoor-outdoor coastal living.
+          </p>
+</div>
+<div class="lg:col-span-4 flex flex-col lg:items-end justify-end">
+<div class="bg-surface-container-lowest/5 p-space-md rounded-xl backdrop-blur-sm w-full lg:max-w-xs shadow-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-muted-slate block mb-1">Elevation Perspective</span>
+<div class="flex items-baseline justify-between">
+<span class="font-headline-sm text-headline-sm text-midnight-black">Tower Alpha</span>
+<span class="font-label-md text-label-md uppercase text-gold-dark">High-Floor Orientation</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Residence Selector Bar -->
+<div class="w-full bg-sand-beige/60 p-1.5 rounded-2xl shadow-sm flex flex-col md:flex-row items-center gap-1.5 overflow-x-auto scrollbar-none">
+<button class="group residence-tab w-full md:w-auto flex-1 flex items-center justify-between md:justify-center gap-space-sm px-space-md py-space-sm rounded-xl font-label-md text-label-md uppercase tracking-wider text-surface-container-highest hover:text-midnight-black hover:bg-warm-ivory/80 transition-all" type="button">
+<span class="font-semibold">1 Bedroom</span>
+<span class="text-xs px-2 py-0.5 rounded-full bg-black/5 text-muted-slate group-hover:text-midnight-black">88 m²</span>
+</button>
+<button class="group residence-tab active w-full md:w-auto flex-1 flex items-center justify-between md:justify-center gap-space-sm px-space-md py-space-sm rounded-xl font-label-md text-label-md uppercase tracking-wider bg-midnight-black text-warm-ivory shadow-md transition-all" type="button">
+<span class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span class="font-bold text-primary">2 Bedroom</span>
+</span>
+<span class="text-xs px-2 py-0.5 rounded-full bg-surface-container-highest text-primary font-bold">156 m²</span>
+</button>
+<button class="group residence-tab w-full md:w-auto flex-1 flex items-center justify-between md:justify-center gap-space-sm px-space-md py-space-sm rounded-xl font-label-md text-label-md uppercase tracking-wider text-surface-container-highest hover:text-midnight-black hover:bg-warm-ivory/80 transition-all" type="button">
+<span class="font-semibold">3 Bedroom</span>
+<span class="text-xs px-2 py-0.5 rounded-full bg-black/5 text-muted-slate group-hover:text-midnight-black">228 m²</span>
+</button>
+<button class="group residence-tab w-full md:w-auto flex-1 flex items-center justify-between md:justify-center gap-space-sm px-space-md py-space-sm rounded-xl font-label-md text-label-md uppercase tracking-wider text-surface-container-highest hover:text-midnight-black hover:bg-warm-ivory/80 transition-all" type="button">
+<span class="font-semibold">4 Bed Sky Penthouse</span>
+<span class="text-xs px-2 py-0.5 rounded-full bg-black/5 text-muted-slate group-hover:text-midnight-black">410 m²</span>
+</button>
+</div>
+</div>
+</section>
+<!-- CENTRAL ARCHITECTURAL WORKSPACE (3-COLUMN INTERACTIVE CANVAS) -->
+<section class="w-full bg-[#ECE7DC] py-space-lg relative">
+<div class="max-w-[1600px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-desktop items-start">
+<!-- LEFT COLUMN: Design Philosophy & Detailed Metrics -->
+<div class="lg:col-span-3 flex flex-col gap-space-md order-2 lg:order-1">
+<!-- Unit Overview Box -->
+<div class="bg-warm-ivory p-space-md rounded-2xl shadow-sm flex flex-col">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-gold-dark font-bold">Unit Typology</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-muted-slate">Series B-02</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-midnight-black mb-space-sm">
+              The Signature Two Bedroom
+            </h2>
+<p class="font-body-md text-body-md text-surface-container-highest leading-relaxed mb-space-md">
+              Configured for expansive dual-living with seamless fluid transition from the great salon out to an uninterrupted Mediterranean seascape.
+            </p>
+<!-- Key Architectural Highlights -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-gold-dark mt-0.5 text-[20px]">panorama_photosphere</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold text-midnight-black">Panoramic Glass Curtain</span>
+<span class="font-body-sm text-body-sm text-muted-slate">3.4m floor-to-ceiling thermal acoustic facade</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-gold-dark mt-0.5 text-[20px]">deck</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold text-midnight-black">Wraparound Sea Terrace</span>
+<span class="font-body-sm text-body-sm text-muted-slate">28 m² sheltered outdoor entertaining area</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-gold-dark mt-0.5 text-[20px]">bathtub</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold text-midnight-black">Ocean Ensuite Bath</span>
+<span class="font-body-sm text-body-sm text-muted-slate">Freestanding soaking tub overlooking the coast</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-gold-dark mt-0.5 text-[20px]">countertops</span>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold text-midnight-black">Gourmet Chef Island</span>
+<span class="font-body-sm text-body-sm text-muted-slate">Monolithic Italian Calacatta marble center</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Spatial Metrics Matrix -->
+<div class="bg-midnight-black text-warm-ivory p-space-md rounded-2xl shadow-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary block mb-space-sm">
+              Spatial Cadastre
+            </span>
+<div class="flex flex-col gap-space-xs">
+<div class="flex justify-between items-baseline py-1.5 border-b border-surface-container-highest/60">
+<span class="font-body-sm text-body-sm text-sand-beige/70">Total Built Area</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">156 m² <span class="font-body-sm text-body-sm font-normal text-muted-slate">/ 1,679 sq.ft</span></span>
+</div>
+<div class="flex justify-between items-baseline py-1.5 border-b border-surface-container-highest/60">
+<span class="font-body-sm text-body-sm text-sand-beige/70">Internal Living</span>
+<span class="font-label-md text-label-md text-warm-ivory">128 m² (82%)</span>
+</div>
+<div class="flex justify-between items-baseline py-1.5 border-b border-surface-container-highest/60">
+<span class="font-body-sm text-body-sm text-sand-beige/70">Outdoor Terraces</span>
+<span class="font-label-md text-label-md text-warm-ivory">28 m² (18%)</span>
+</div>
+<div class="flex justify-between items-baseline py-1.5">
+<span class="font-body-sm text-body-sm text-sand-beige/70">Ceiling Height</span>
+<span class="font-label-md text-label-md text-primary">3.40 m Clear</span>
+</div>
+<div class="flex justify-between items-baseline py-1.5">
+<span class="font-body-sm text-body-sm text-sand-beige/70">Exposure</span>
+<span class="font-label-md text-label-md text-warm-ivory">North-West Shoreline</span>
+</div>
+</div>
+<div class="mt-space-md p-space-xs bg-surface-container-low rounded-xl flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-sand-beige/60">Parking allocation</span>
+<span class="font-label-sm text-label-sm uppercase text-primary font-bold">2 Reserved Bays</span>
+</div>
+</div>
+</div>
+<!-- CENTER COLUMN: Hero Interactive 3D Cutaway Floor Plan Canvas -->
+<div class="lg:col-span-6 flex flex-col gap-space-sm order-1 lg:order-2">
+<div class="relative bg-warm-ivory rounded-3xl p-space-md shadow-xl overflow-hidden aspect-[4/3] md:aspect-[16/11] flex items-center justify-center group" id="planContainer">
+<!-- Floorplan Technical Grid Background -->
+<div class="absolute inset-0 opacity-15 pointer-events-none bg-[linear-gradient(to_right,#06090E_1px,transparent_1px),linear-gradient(to_bottom,#06090E_1px,transparent_1px)] bg-[size:40px_40px]"></div>
+<!-- Compass Cardinal Floating Element -->
+<div class="absolute top-space-md left-space-md z-20 flex flex-col items-center bg-midnight-black/85 backdrop-blur-md text-warm-ivory px-2.5 py-2 rounded-xl shadow-lg">
+<span class="font-label-sm text-label-sm text-primary font-bold">N</span>
+<span class="material-symbols-outlined text-[16px] text-sand-beige rotate-45">navigation</span>
+<span class="font-label-sm text-[9px] text-muted-slate tracking-tighter">MED SEA</span>
+</div>
+<!-- Level Elevation Badge -->
+<div class="absolute top-space-md right-space-md z-20 bg-midnight-black/85 backdrop-blur-md text-warm-ivory px-3 py-1.5 rounded-xl shadow-lg flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase">Floors 12 to 28 • Type B</span>
+</div>
+<!-- The Floor Plan Render Layer (3D Cutaway) -->
+<div class="relative w-full h-full flex items-center justify-center">
+<img alt="2 Bedroom Isometric Architectural Floor Plan" class="w-full h-full object-contain filter drop-shadow-2xl transition-transform duration-700 select-none pointer-events-none group-hover:scale-[1.02]" data-alt="Detailed architectural isometric 3D cutaway floor plan of a luxury modern 2 bedroom apartment residence in New Alamein Egypt. High-end modern minimalist interior with light European oak herringbone wood floor, white Bianco Carrara marble kitchen island, sleek designer furniture, master bedroom with king bed and glass ensuite luxury bath with freestanding bathtub, secondary guest bedroom, spacious living room flowing out onto a deep curved wrap-around seaside balcony with contemporary teak sun loungers and crystal glass railing, photorealistic architectural rendering in clean ambient warm daylight with crisp soft shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnGd-mp-BklYmsd3fYsVcDuKu_VvWyab6f-GlvOLHVKhJzjNt3A0svj0-SO67iyEJ3evinUKhpJG9VdIHsoTNOYJyXbvprqOMoyaConmHespP_akp7rkFZ7QGRy1AYlFiTTmNmpY2Og3C91ZR51wJbAbxyA_WxETDrlOgFuIEvmqNX9s0SAO4tjmcOQJ43h-46nsGNekJLOGtej7E4W_AzQIfkcFkqvzd4yWtEvLhle5u-p4DfR4FJ"/>
+<!-- Interactive Pin: Master Bedroom Suite -->
+<div class="absolute top-[28%] left-[24%] -translate-x-1/2 -translate-y-1/2 group/pin z-30 cursor-pointer">
+<div class="relative flex items-center justify-center">
+<div class="w-8 h-8 rounded-full bg-primary/30 animate-ping absolute"></div>
+<div class="w-7 h-7 rounded-full bg-midnight-black text-primary flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[16px]">bed</span>
+</div>
+</div>
+<!-- Pin Tooltip -->
+<div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 bg-midnight-black/95 backdrop-blur-md text-warm-ivory p-space-xs rounded-xl shadow-2xl opacity-0 group-hover/pin:opacity-100 transition-all pointer-events-none z-40 transform translate-y-1 group-hover/pin:translate-y-0">
+<span class="font-label-sm text-[10px] tracking-wider text-primary block uppercase">Zone 01</span>
+<span class="font-label-md text-label-md font-bold block text-warm-ivory">Master Bedroom Suite</span>
+<span class="font-body-sm text-[11px] text-sand-beige/80">34 m² • Walk-in Robe &amp; Ensuite</span>
+</div>
+</div>
+<!-- Interactive Pin: Wraparound Balcony -->
+<div class="absolute bottom-[22%] right-[28%] -translate-x-1/2 -translate-y-1/2 group/pin z-30 cursor-pointer">
+<div class="relative flex items-center justify-center">
+<div class="w-8 h-8 rounded-full bg-primary/30 animate-ping absolute"></div>
+<div class="w-7 h-7 rounded-full bg-midnight-black text-primary flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[16px]">wb_sunny</span>
+</div>
+</div>
+<!-- Pin Tooltip -->
+<div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 bg-midnight-black/95 backdrop-blur-md text-warm-ivory p-space-xs rounded-xl shadow-2xl opacity-0 group-hover/pin:opacity-100 transition-all pointer-events-none z-40 transform translate-y-1 group-hover/pin:translate-y-0">
+<span class="font-label-sm text-[10px] tracking-wider text-primary block uppercase">Zone 02</span>
+<span class="font-label-md text-label-md font-bold block text-warm-ivory">Wraparound Sea Terrace</span>
+<span class="font-body-sm text-[11px] text-sand-beige/80">28 m² • Dual Sun Loungers</span>
+</div>
+</div>
+<!-- Interactive Pin: Living & Dining Salon -->
+<div class="absolute top-[52%] right-[44%] -translate-x-1/2 -translate-y-1/2 group/pin z-30 cursor-pointer">
+<div class="relative flex items-center justify-center">
+<div class="w-8 h-8 rounded-full bg-primary/30 animate-ping absolute"></div>
+<div class="w-7 h-7 rounded-full bg-midnight-black text-primary flex items-center justify-center shadow-lg hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[16px]">chair</span>
+</div>
+</div>
+<!-- Pin Tooltip -->
+<div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 bg-midnight-black/95 backdrop-blur-md text-warm-ivory p-space-xs rounded-xl shadow-2xl opacity-0 group-hover/pin:opacity-100 transition-all pointer-events-none z-40 transform translate-y-1 group-hover/pin:translate-y-0">
+<span class="font-label-sm text-[10px] tracking-wider text-primary block uppercase">Zone 03</span>
+<span class="font-label-md text-label-md font-bold block text-warm-ivory">Open Living &amp; Dining Salon</span>
+<span class="font-body-sm text-[11px] text-sand-beige/80">42 m² • Frameless Sea Glazing</span>
+</div>
+</div>
+<!-- Interactive Pin: Private Elevator Vestibule -->
+<div class="absolute bottom-[20%] left-[16%] -translate-x-1/2 -translate-y-1/2 group/pin z-30 cursor-pointer">
+<div class="relative flex items-center justify-center">
+<div class="w-7 h-7 rounded-full bg-midnight-black text-sand-beige flex items-center justify-center shadow-md hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[15px]">sensor_door</span>
+</div>
+</div>
+<!-- Pin Tooltip -->
+<div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-48 bg-midnight-black/95 backdrop-blur-md text-warm-ivory p-space-xs rounded-xl shadow-2xl opacity-0 group-hover/pin:opacity-100 transition-all pointer-events-none z-40 transform translate-y-1 group-hover/pin:translate-y-0">
+<span class="font-label-sm text-[10px] tracking-wider text-primary block uppercase">Zone 04</span>
+<span class="font-label-md text-label-md font-bold block text-warm-ivory">Direct Lift Vestibule</span>
+<span class="font-body-sm text-[11px] text-sand-beige/80">Secure biometric lobby access</span>
+</div>
+</div>
+</div>
+<!-- Floor Plan Watermark -->
+<div class="absolute bottom-space-md left-space-md pointer-events-none opacity-40">
+<span class="font-headline-lg text-headline-lg font-serif italic text-midnight-black select-none">
+                ALAMEIN TOWERS
+              </span>
+</div>
+</div>
+<!-- Interactive Plan Utility Control Bar -->
+<div class="bg-warm-ivory p-space-xs rounded-2xl shadow-sm flex flex-wrap items-center justify-between gap-space-xs">
+<!-- View Mode Switcher -->
+<div class="inline-flex p-1 bg-[#E2DBD0] rounded-xl">
+<button class="px-space-md py-1.5 rounded-lg font-label-sm text-label-sm uppercase tracking-wider bg-midnight-black text-warm-ivory font-bold shadow-sm flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[16px]">view_in_ar</span>
+<span>3D Isometric</span>
+</button>
+<button class="px-space-md py-1.5 rounded-lg font-label-sm text-label-sm uppercase tracking-wider text-surface-container-highest hover:text-midnight-black transition-colors flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[16px]">architecture</span>
+<span>2D CAD Blueprint</span>
+</button>
+</div>
+<!-- View Manipulation Tools -->
+<div class="flex items-center gap-1">
+<button class="w-9 h-9 rounded-xl bg-surface-container-lowest/5 hover:bg-midnight-black hover:text-primary transition-colors flex items-center justify-center text-midnight-black" title="Rotate Plan 90°" type="button">
+<span class="material-symbols-outlined text-[18px]">rotate_right</span>
+</button>
+<button class="w-9 h-9 rounded-xl bg-surface-container-lowest/5 hover:bg-midnight-black hover:text-primary transition-colors flex items-center justify-center text-midnight-black" title="Zoom In" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+</button>
+<button class="w-9 h-9 rounded-xl bg-surface-container-lowest/5 hover:bg-midnight-black hover:text-primary transition-colors flex items-center justify-center text-midnight-black" title="Zoom Out" type="button">
+<span class="material-symbols-outlined text-[18px]">remove</span>
+</button>
+<button class="w-9 h-9 rounded-xl bg-surface-container-lowest/5 hover:bg-midnight-black hover:text-primary transition-colors flex items-center justify-center text-midnight-black" title="Reset View" type="button">
+<span class="material-symbols-outlined text-[18px]">center_focus_strong</span>
+</button>
+<button class="w-9 h-9 rounded-xl bg-gold-light/60 text-gold-dark hover:bg-gold-dark hover:text-warm-ivory transition-colors flex items-center justify-center" title="Fullscreen Expansion" type="button">
+<span class="material-symbols-outlined text-[18px]">fullscreen</span>
+</button>
+</div>
+</div>
+</div>
+<!-- RIGHT COLUMN: Dimensions Table, Finishes & High-Intent Conversion -->
+<div class="lg:col-span-3 flex flex-col gap-space-md order-3">
+<!-- Dimensions Breakdown Table Card -->
+<div class="bg-warm-ivory p-space-md rounded-2xl shadow-sm flex flex-col">
+<div class="flex items-center justify-between mb-space-sm pb-space-xs border-b border-surface-container-highest/20">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] font-bold text-midnight-black">
+                Room Dimensions
+              </span>
+<span class="font-label-sm text-[11px] uppercase tracking-wider text-muted-slate">Net Usable</span>
+</div>
+<div class="flex flex-col gap-space-xs font-body-sm text-body-sm">
+<div class="flex items-center justify-between py-1">
+<span class="text-surface-container-highest">Grand Salon &amp; Dining</span>
+<span class="font-label-md text-label-md font-bold text-midnight-black">42.4 m²</span>
+</div>
+<div class="flex items-center justify-between py-1 border-t border-sand-beige/80">
+<span class="text-surface-container-highest">Master Bedroom Suite</span>
+<span class="font-label-md text-label-md font-bold text-midnight-black">34.2 m²</span>
+</div>
+<div class="flex items-center justify-between py-1 border-t border-sand-beige/80">
+<span class="text-surface-container-highest">Master Ensuite &amp; Wardrobe</span>
+<span class="font-label-md text-label-md font-bold text-midnight-black">12.6 m²</span>
+</div>
+<div class="flex items-center justify-between py-1 border-t border-sand-beige/80">
+<span class="text-surface-container-highest">Bedroom Two (Ensuite)</span>
+<span class="font-label-md text-label-md font-bold text-midnight-black">24.0 m²</span>
+</div>
+<div class="flex items-center justify-between py-1 border-t border-sand-beige/80">
+<span class="text-surface-container-highest">Gourmet Open Kitchen</span>
+<span class="font-label-md text-label-md font-bold text-midnight-black">14.8 m²</span>
+</div>
+<div class="flex items-center justify-between py-1 border-t border-sand-beige/80">
+<span class="text-surface-container-highest">Powder Room &amp; Foyer</span>
+<span class="font-label-md text-label-md font-bold text-midnight-black">5.2 m²</span>
+</div>
+<div class="flex items-center justify-between py-1 border-t border-sand-beige/80">
+<span class="text-surface-container-highest font-medium text-gold-dark">Curved Sea Terrace</span>
+<span class="font-label-md text-label-md font-bold text-gold-dark">28.0 m²</span>
+</div>
+</div>
+</div>
+<!-- Architectural Specifications & Finishes -->
+<div class="bg-warm-ivory p-space-md rounded-2xl shadow-sm flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] font-bold text-midnight-black mb-space-sm block">
+              Curated Material Palette
+            </span>
+<div class="grid grid-cols-2 gap-space-xs mb-space-xs">
+<div class="bg-[#F0ECE1] p-2.5 rounded-xl flex flex-col">
+<span class="font-label-sm text-[10px] uppercase text-muted-slate font-bold">Main Flooring</span>
+<span class="font-label-sm text-[12px] text-midnight-black font-semibold mt-0.5">European Oak Herringbone</span>
+</div>
+<div class="bg-[#F0ECE1] p-2.5 rounded-xl flex flex-col">
+<span class="font-label-sm text-[10px] uppercase text-muted-slate font-bold">Stone Work</span>
+<span class="font-label-sm text-[12px] text-midnight-black font-semibold mt-0.5">Bianco Carrara Marble</span>
+</div>
+<div class="bg-[#F0ECE1] p-2.5 rounded-xl flex flex-col">
+<span class="font-label-sm text-[10px] uppercase text-muted-slate font-bold">Hardware</span>
+<span class="font-label-sm text-[12px] text-midnight-black font-semibold mt-0.5">Brushed Champagne Brass</span>
+</div>
+<div class="bg-[#F0ECE1] p-2.5 rounded-xl flex flex-col">
+<span class="font-label-sm text-[10px] uppercase text-muted-slate font-bold">Glazing</span>
+<span class="font-label-sm text-[12px] text-midnight-black font-semibold mt-0.5">Solar-Acoustic Double Low-E</span>
+</div>
+</div>
+</div>
+<!-- High Value Conversion Actions -->
+<div class="flex flex-col gap-space-xs">
+<a class="w-full text-center py-space-sm px-space-md rounded-xl font-label-md text-label-md uppercase tracking-wider text-midnight-black font-bold shadow-lg bg-[linear-gradient(135deg,#FAECCD_0%,#DFB76E_50%,#BA8733_100%)] hover:brightness-105 active:scale-[0.99] transition-all flex items-center justify-center gap-2" href="#">
+<span class="material-symbols-outlined text-[18px]">calendar_month</span>
+<span>Book Tour for this Layout</span>
+</a>
+<button class="w-full text-center py-space-sm px-space-md rounded-xl font-label-md text-label-md uppercase tracking-wider text-midnight-black bg-warm-ivory border border-primary-container/40 hover:bg-sand-beige transition-all flex items-center justify-center gap-2 shadow-sm" type="button">
+<span class="material-symbols-outlined text-[18px]">download_for_offline</span>
+<span>Download Blueprint Pack (PDF)</span>
+</button>
+</div>
+<!-- Residence Pagination Micro-Navigator -->
+<div class="bg-warm-ivory/80 p-space-xs rounded-xl flex items-center justify-between">
+<a class="flex items-center gap-1 text-surface-container-highest hover:text-midnight-black font-label-sm text-label-sm uppercase tracking-wider transition-colors" href="#">
+<span class="material-symbols-outlined text-[16px]">arrow_back</span>
+<span>Prev: 1 Bed</span>
+</a>
+<span class="w-1 h-1 rounded-full bg-gold-dark"></span>
+<a class="flex items-center gap-1 text-surface-container-highest hover:text-midnight-black font-label-sm text-label-sm uppercase tracking-wider transition-colors" href="#">
+<span>Next: 3 Bed</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- BOTTOM SECTION: Room-by-Room Interior Previews Strip -->
+<section class="w-full bg-warm-ivory py-space-xl border-t border-sand-beige/60">
+<div class="max-w-[1600px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop">
+<!-- Section Editorial Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm mb-space-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-gold-dark font-bold block mb-1">
+            IMMERSIVE PERSPECTIVES
+          </span>
+<h3 class="font-headline-lg text-headline-lg text-midnight-black">
+            Room-by-Room Interior Previews
+          </h3>
+</div>
+<p class="font-body-md text-body-md text-surface-container-highest max-w-md">
+          Explore rendered interior finishes representing the 2-Bedroom Signature Suite configuration facing the New Alamein coast.
+        </p>
+</div>
+<!-- 4-Card Horizontal Gallery -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Preview 1: Salon -->
+<div class="group relative rounded-2xl overflow-hidden bg-sand-beige shadow-md flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="Panoramic Living Salon" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Interior architectural rendering of a master salon living room in New Alamein luxury tower. Floor-to-ceiling glass windows framing clear azure Mediterranean sea waters, white Italian marble walls, bespoke cream sofa, sculptural champagne gold coffee table, natural sunlight pouring inside." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA0t57QrRS-B-QxtI6CavG4ZX-3gWkpjJksi_k6aHKJE8xN1Dfn38f3gcU_AU8qi4G4r8OG7e5bNB01T57n3PxcmLqsVh-VsNQUxUMj5suxNAGkIJ0chJWwgVklsycVNtkacAixb8GoiQJLeU2kmB_kClp_mXJfCt-6nj6h7n3t_zmsflNwMcS7aLawlRED-mJwXWjvtUx-ps66WaSoiPhsrtcXcbg6JV3LXM4-FhDU0DVBjt__xXzz"/>
+<div class="absolute inset-0 bg-gradient-to-t from-midnight-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 bg-midnight-black/70 backdrop-blur-sm text-primary font-label-sm text-[10px] tracking-wider uppercase px-2 py-1 rounded">
+              01 • Salon
+            </span>
+</div>
+<div class="p-space-sm bg-warm-ivory flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-label-lg text-label-lg text-midnight-black font-bold">Panoramic Living Salon</h4>
+<p class="font-body-sm text-[12px] text-muted-slate mt-0.5">3.4m curtain wall with seamless sea outlook</p>
+</div>
+<span class="font-label-sm text-[11px] text-gold-dark font-semibold mt-space-xs block">42.4 m² Area</span>
+</div>
+</div>
+<!-- Preview 2: Master Suite -->
+<div class="group relative rounded-2xl overflow-hidden bg-sand-beige shadow-md flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="Primary Master Suite" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Luxurious master bedroom suite interior in Mediterranean coastal tower New Alamein. King size bed with linen headboard in warm ivory, walk-in custom oak dressing room, brushed gold light fixtures, floor to ceiling glass door opening to the morning terrace." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAWlgv9iKM5ErIXPjnFihvX2pgNVeDbSjFr30XvmviqJxKJHwJeF3ucDKD1LFIc9hBDlEoEn5PL1bVbi5XktDhWwgKjbVc_vtLgZItQ_iaS6eqqJECTx7xmmpaDgsIbACvlqA_lL7w-v7zvTamYVcESiLTiWy4PboVjNiz2KSXx0R0QIaZdnjOGNJlhMMznXsf2L1wBFMOJvB3lkMdto55hSjpHnqZf0hndU4qnqfNaOIKXBfwmzSy"/>
+<div class="absolute inset-0 bg-gradient-to-t from-midnight-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 bg-midnight-black/70 backdrop-blur-sm text-primary font-label-sm text-[10px] tracking-wider uppercase px-2 py-1 rounded">
+              02 • Bedroom
+            </span>
+</div>
+<div class="p-space-sm bg-warm-ivory flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-label-lg text-label-lg text-midnight-black font-bold">Master Suite &amp; Dressing</h4>
+<p class="font-body-sm text-[12px] text-muted-slate mt-0.5">Integrated Italian wardrobes &amp; ocean view bed</p>
+</div>
+<span class="font-label-sm text-[11px] text-gold-dark font-semibold mt-space-xs block">34.2 m² Area</span>
+</div>
+</div>
+<!-- Preview 3: Ensuite Bath -->
+<div class="group relative rounded-2xl overflow-hidden bg-sand-beige shadow-md flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="Master Ensuite Soaking Tub" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Spa style ensuite luxury bathroom with panoramic Mediterranean ocean view from high floor apartment. Monolithic freestanding stone soaking tub next to frameless glass window, bookmatched Calacatta marble wall cladding, dual brass sink faucets." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHT6yeeIEVzEaypJFEdjwmAkwZkt6ATqi6jK97qS6iu4lozTf9NhRpTflxsvNriEzfhntF3QgjCIevhcEZxWth7gGBD0j-gIWoMi9k35LEzRK3uwAGWyEB2EY08F9cpfEoDdITDg9qvy3zVXNlKsAdLL-jAlY4u0zBR3_R2SXuW14Z9Y87GXZ2ScGDVkBlNz_APwWdHSyklCyvdRgDdzOwCXaFr7n3X_10IFueUp02axxxUPXKKhlO"/>
+<div class="absolute inset-0 bg-gradient-to-t from-midnight-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 bg-midnight-black/70 backdrop-blur-sm text-primary font-label-sm text-[10px] tracking-wider uppercase px-2 py-1 rounded">
+              03 • Ensuite
+            </span>
+</div>
+<div class="p-space-sm bg-warm-ivory flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-label-lg text-label-lg text-midnight-black font-bold">Sea-Facing Ensuite Bath</h4>
+<p class="font-body-sm text-[12px] text-muted-slate mt-0.5">Freestanding soaking tub overlooking sunset</p>
+</div>
+<span class="font-label-sm text-[11px] text-gold-dark font-semibold mt-space-xs block">12.6 m² Area</span>
+</div>
+</div>
+<!-- Preview 4: Balcony Terrace -->
+<div class="group relative rounded-2xl overflow-hidden bg-sand-beige shadow-md flex flex-col">
+<div class="relative aspect-[4/3] overflow-hidden">
+<img alt="Wraparound Sea Terrace" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Wide expansive curved private balcony terrace of a modern skyscraper in New Alamein overlooking turquoise Mediterranean sea. Sleek minimalist sun loungers with beige cushions, clear glass balustrade, wooden slatted ceiling with soft recessed warm lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo0jgz9VTI5UWZuTWA5ARp5Vti8ebqHse_AhUP-bXLALJeXzV-gYNVXfLDSQyq0j8q8SGiSdAt-bSLmn1Np6A2EULOoGgRYx_h_eNI3UDukBIfUEChUJj-73rmdhYdBwdOIrrW1e3SlVCu70EytjzcVQERbKb6UR-eDKnURxxv0DuHVS6Qm-kcCJ0S7ZpdxIdlKc-Sw3q4CC1oCy_4iwMGQ1oebFxhslan14oqkzASWgqt1D5vi5Wr"/>
+<div class="absolute inset-0 bg-gradient-to-t from-midnight-black/80 via-transparent to-transparent"></div>
+<span class="absolute top-3 left-3 bg-midnight-black/70 backdrop-blur-sm text-primary font-label-sm text-[10px] tracking-wider uppercase px-2 py-1 rounded">
+              04 • Terrace
+            </span>
+</div>
+<div class="p-space-sm bg-warm-ivory flex flex-col justify-between flex-1">
+<div>
+<h4 class="font-label-lg text-label-lg text-midnight-black font-bold">Curved Sea Terrace</h4>
+<p class="font-body-sm text-[12px] text-muted-slate mt-0.5">Deep sheltered al fresco outdoor living</p>
+</div>
+<span class="font-label-sm text-[11px] text-gold-dark font-semibold mt-space-xs block">28.0 m² Area</span>
+</div>
+</div>
+</div>
+<!-- Legal & Conceptual Architectural Disclaimer Note -->
+<div class="mt-space-lg pt-space-md border-t border-sand-beige/70 flex flex-col sm:flex-row items-center justify-between gap-space-sm text-center sm:text-left">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[16px] text-muted-slate">verified</span>
+<p class="font-label-sm text-[11px] text-muted-slate tracking-wide">
+            All dimensions, room layouts, and spatial arrangements are conceptual and illustrative for portfolio design presentation.
+          </p>
+</div>
+<div class="font-label-sm text-[11px] uppercase tracking-widest text-gold-dark font-semibold">
+          REF: ALM-TW-PLN-2025-V4
+        </div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-midnight-black relative border-t border-primary-container/15 overflow-hidden"><div class="max-w-[1600px] mx-auto px-margin md:px-margin-tablet lg:px-margin-desktop pt-space-xl pb-space-lg relative z-10"><div class="w-full bg-[#071820]/75 backdrop-blur-xl border border-primary-container/20 p-space-md md:p-space-xl mb-space-xl shadow-[0_20px_50px_rgba(6,9,14,0.65)]"><div class="flex flex-col lg:flex-row lg:items-center justify-between gap-gutter"><div class="max-w-2xl"><span class="font-label-sm text-label-sm tracking-[0.25em] uppercase text-primary block mb-space-xs">STAY CONNECTED</span><h3 class="font-headline-lg text-headline-lg text-warm-ivory mb-space-xs">Exceptional Homes, Extraordinary Living.</h3><p class="font-body-md text-body-md text-sand-beige/80">Discover new residential concepts, architectural inspiration, and exclusive coastal lifestyle updates directly from New Alamein.</p></div><form class="flex flex-col sm:flex-row items-stretch gap-space-sm w-full lg:w-auto lg:min-w-[420px]"><input class="bg-surface-container-lowest/80 border border-outline-variant/40 px-space-md py-space-sm text-on-surface placeholder:text-on-surface-variant/60 font-body-sm text-body-sm focus:outline-none focus:border-primary-container transition-colors flex-1" placeholder="Enter your private email address" type="email"/><button class="font-label-md text-label-md uppercase tracking-wider text-midnight-black px-space-lg py-space-sm bg-[linear-gradient(135deg,#FAECCD_0%,#DFB76E_50%,#BA8733_100%)] hover:brightness-105 transition-all shadow-md" type="submit">Subscribe</button></form></div></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter pb-space-xl border-b border-outline-variant/20"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Alamein Towers Brand Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UUweNbl8BjUcUK8V9eb0TiD1obYH-LyyT9iwH2Xe0MtH70FuEPcxr174_nW6CPHEcgSka6pxAucdNx1O0XLFk6HaXNjGcZABjdHV6lftl_H1w35gYp-H3ubXKm9UTcCIxxWcovMCF5-5vn_21bLXbNh2a_B_U9l0gtNvBKQOeptNdD0BU6jSN8g87YSOVMwOfvy_EfcwiW__0Kl6VX8UnOeDLxG264fca5MMXROwWdi1qCndLtCbvOL0o"/><span class="flex flex-col text-left"><span class="font-label-lg text-label-lg tracking-[0.2em] uppercase text-warm-ivory">ALAMEIN TOWERS</span><span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-primary">Mediterranean Sanctuary</span></span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm leading-relaxed">A landmark Mediterranean address in New Alamein celebrating architectural purity and coastal serenity.</p><div class="flex items-center gap-space-sm pt-space-xs"><a class="w-9 h-9 rounded-full bg-surface-container-low border border-primary-container/20 flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary-container transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">photo_camera</span></a><a class="w-9 h-9 rounded-full bg-surface-container-low border border-primary-container/20 flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary-container transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">hub</span></a><a class="w-9 h-9 rounded-full bg-surface-container-low border border-primary-container/20 flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary-container transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">smart_display</span></a><a class="w-9 h-9 rounded-full bg-surface-container-low border border-primary-container/20 flex items-center justify-center text-primary hover:bg-primary-container hover:text-on-primary-container transition-colors" href="#"><span class="material-symbols-outlined text-[18px]">public</span></a></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary">EXPLORE</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="residences" href="#">Residences</a></li><li><a class="hover:text-primary transition-colors" data-path="floor-plans" href="#">Floor Plans</a></li><li><a class="hover:text-primary transition-colors" data-path="amenities" href="#">Amenities</a></li><li><a class="hover:text-primary transition-colors" data-path="location" href="#">Location</a></li><li><a class="hover:text-primary transition-colors" data-path="gallery" href="#">Gallery</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary">ABOUT</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="about" href="#">Our Vision</a></li><li><a class="hover:text-primary transition-colors" data-path="architecture" href="#">Architecture</a></li><li><a class="hover:text-primary transition-colors" data-path="the-destination" href="#">The Destination</a></li><li><a class="hover:text-primary transition-colors" data-path="mediterranean-living" href="#">Mediterranean Living</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary">RESOURCES</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="property-guide" href="#">Conceptual Property Guide</a></li><li><a class="hover:text-primary transition-colors" data-path="media-kit" href="#">Media Kit</a></li><li><a class="hover:text-primary transition-colors" data-path="faqs" href="#">FAQs</a></li><li><a class="hover:text-primary transition-colors" data-path="book-a-tour" href="#">Private Inquiries</a></li></ul></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary">CONTACT</span><div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><p class="leading-relaxed">New Alamein Waterfront,<br/>Mediterranean Coast, Egypt</p><p class="text-sand-beige hover:text-primary transition-colors">concierge@alameintowers.concept</p><p>+20 (0) Concept Desk</p><span class="font-label-sm text-label-sm text-outline tracking-widest mt-space-xs">30°50'N 28°57'E</span></div></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-on-surface-variant/70"><div class="flex flex-col gap-0.5 text-center md:text-left"><p>© 2025 ALAMEIN TOWERS. Conceptual Architectural Showcase Portfolio Project.</p><p class="font-label-sm text-label-sm tracking-wider text-outline">Conceptual illustrative project created for luxury design demonstration.</p></div><div class="flex items-center gap-space-md font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><span class="text-outline-variant/40">|</span><a class="hover:text-primary transition-colors" data-path="terms-of-experience" href="#">Terms of Experience</a><span class="text-outline-variant/40">|</span><a class="hover:text-primary transition-colors" data-path="cookie-settings" href="#">Cookie Settings</a></div></div></div></footer></body></html>

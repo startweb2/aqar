@@ -1,0 +1,52 @@
+{
+  "theme": {
+    "colors": {
+      "primary": "#fdd387",
+      "primary-container": "#dfb76e",
+      "primary-fixed": "#ffdea6",
+      "primary-fixed-dim": "#e9c177",
+      "on-primary": "#412d00",
+      "on-primary-container": "#634706",
+      "secondary": "#a6cdda",
+      "secondary-container": "#264c57",
+      "on-secondary": "#0b3540",
+      "surface": "#05151d",
+      "surface-container": "#11222a",
+      "surface-container-low": "#0d1e26",
+      "surface-container-high": "#1c2c35",
+      "surface-container-highest": "#273740",
+      "surface-container-lowest": "#011018",
+      "background": "#05151d",
+      "midnight-black": "#06090E",
+      "warm-ivory": "#F6F3EC",
+      "sand-beige": "#E8E2D5",
+      "muted-slate": "#89949A",
+      "gold-light": "#FAECCD",
+      "gold-dark": "#BA8733"
+    },
+    "typography": {
+      "headlineFont": "EB Garamond",
+      "bodyFont": "Plus Jakarta Sans",
+      "labelFont": "Plus Jakarta Sans",
+      "icons": "Material Symbols Outlined"
+    },
+    "spacing": {
+      "margin": "1.25rem",
+      "margin-tablet": "2.5rem",
+      "margin-desktop": "5rem",
+      "gutter": "1.5rem",
+      "gutter-desktop": "2.5rem",
+      "space-xs": "0.375rem",
+      "space-sm": "0.75rem",
+      "space-md": "1.25rem",
+      "space-lg": "2.25rem",
+      "space-xl": "4rem"
+    },
+    "borderRadius": {
+      "DEFAULT": "0.25rem",
+      "lg": "0.5rem",
+      "xl": "0.75rem",
+      "full": "9999px"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "projectId": "8316443373128159088",
+  "title": "Alamein Towers Luxury Showcase",
+  "deviceType": "DESKTOP",
+  "Last Sync Time": "2026-10-25T15:05:00.000Z",
+  "screens": {
+    "homepage": {
+      "id": "dbd2dae3dd1f40c294119e5f5839fbbf",
+      "label": "Homepage — The Art of Mediterranean Living",
+      "sourceScreen": "projects/8316443373128159088/screens/dbd2dae3dd1f40c294119e5f5839fbbf",
+      "dimensions": { "width": 2560, "height": 22740 },
+      "canvasPosition": { "x": 1024, "y": 0 }
+    },
+    "residences": {
+      "id": "a7a074ce11d54169a6180b84141e6d27",
+      "label": "Residences Collection",
+      "sourceScreen": "projects/8316443373128159088/screens/a7a074ce11d54169a6180b84141e6d27",
+      "dimensions": { "width": 2560, "height": 11834 },
+      "canvasPosition": { "x": 5056, "y": 0 }
+    },
+    "floor-plans": {
+      "id": "f881b1310495428b959e4d344fdbe29b",
+      "label": "Interactive Floor Plans Explorer",
+      "sourceScreen": "projects/8316443373128159088/screens/f881b1310495428b959e4d344fdbe29b",
+      "dimensions": { "width": 2560, "height": 5704 },
+      "canvasPosition": { "x": 2391, "y": 403 }
+    },
+    "contact": {
+      "id": "2890aa724b694d7cad99396f53d71ee4",
+      "label": "Contact & Private Viewing",
+      "sourceScreen": "projects/8316443373128159088/screens/2890aa724b694d7cad99396f53d71ee4",
+      "dimensions": { "width": 2560, "height": 5392 },
+      "canvasPosition": { "x": 3712, "y": 0 }
+    }
+  }
+}
